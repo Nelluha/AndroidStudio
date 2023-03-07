@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingClass">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/page_video_text"
+        style="@style/Type_text_style_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin" />
+
+    <Spinner
+        android:id="@+id/page_video_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_below="@id/page_video_text"/>
+
+    <com.google.android.exoplayer2.ui.exoplayer
+        android:id="@+id/video_view"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/page_video_spinner"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="@dimen/default_margin"
+
+        />
+
+</RelativeLayout>
