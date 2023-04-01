@@ -1,0 +1,23 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout_catalogue"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:layout_height="match_parent"
+style="@style/Default_text_style"
+tools:context=".MainActivity">
+
+    <include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+
+    <GridView
+        android:id="@+id/catalogue_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="6dp"
+        android:numColumns="2"
+        android:verticalSpacing="6dp" />
+
+</LinearLayout>

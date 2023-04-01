@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">AppAnime</string>
-    <string name="titre_categorie">Synopsis</string>
-    <string name="Btn1Detail">Anime</string>
-    <string name="Btn2Detail">Scan</string>
-    <string name="toolbar_profil">Profil</string>
-</resources>
