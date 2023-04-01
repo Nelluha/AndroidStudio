@@ -33,6 +33,11 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         this.animeList = animeList;
     }
 
+    public void setFilteredList(List<Anime> filteredList){
+        animeList = filteredList;
+        notifyDataSetChanged();
+    }
+
 
 
     @Override
