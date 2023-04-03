@@ -14,10 +14,12 @@
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/searchbar"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
+        android:background="@drawable/search_design"
         app:queryHint="Rechercher un anime"/>
 
     <RelativeLayout
