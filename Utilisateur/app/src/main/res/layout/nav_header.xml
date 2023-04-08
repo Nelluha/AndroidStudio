@@ -6,8 +6,8 @@
     android:gravity="bottom"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@drawable/lavender_barre"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    android:background="?attr/colorPrimary"
+   >
 
     <androidx.cardview.widget.CardView
         android:layout_width="70dp"
@@ -18,7 +18,7 @@
         <com.google.android.material.imageview.ShapeableImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:src="@drawable/icon_barre"
+            android:src="@drawable/logo"
             android:id="@+id/navImage"
             android:scaleType="centerCrop"
             app:shapeAppearanceOverlay="@style/roundImage"

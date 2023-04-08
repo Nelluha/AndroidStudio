@@ -30,9 +30,33 @@ public class AnimeWebView extends AppCompatActivity {
         aId = getIntent().getStringExtra("animeId");
 
         String titre =  aTitle.replace(" ","-");
+
+        StringBuilder buf = new StringBuilder(titre.length());
+        for (int i = 0; i < titre.length(); i++) {
+            char c = titre.charAt(i);
+
+            if (Character.isUpperCase(c)|| Character.isLowerCase(c)) {
+                buf.append(Character.toLowerCase(c));
+
+            }
+            else if (Character.isWhitespace(c)) {
+                buf.append("-");
+
+            }
+            // Account for case: neither upper nor lower
+            else {
+                buf.append(c);
+            }
+
+        }
+
+
+
+
         webView = findViewById(R.id.webViewAnime);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://anime-sama.fr/catalogue/" + titre+ "/");
+        webView.loadUrl("https://anime-sama.fr/catalogue/" + buf.toString()+ "/");
+        Toast.makeText(getApplicationContext(),buf.toString(),Toast.LENGTH_SHORT).show();
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 

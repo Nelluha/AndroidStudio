@@ -35,9 +35,33 @@ public class ScanWebView extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient());
         String titre =  aTitle.replace(" ","-");
 
-        webView.loadUrl("https://www.japscan.lol/manga/" + titre + "/");
+        StringBuilder buf = new StringBuilder(titre.length());
+        for (int i = 0; i < titre.length(); i++) {
+            char c = titre.charAt(i);
+
+            if (Character.isUpperCase(c)|| Character.isLowerCase(c)) {
+                buf.append(Character.toLowerCase(c));
+
+            }
+            else if (Character.isWhitespace(c)) {
+                buf.append("-");
+
+            }
+            // Account for case: neither upper nor lower
+            else {
+                buf.append(c);
+            }
+
+        }
+
+
+
+
+
+        webView.loadUrl("https://www.japscan.lol/manga/" + buf.toString() + "/");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
 
     }
 

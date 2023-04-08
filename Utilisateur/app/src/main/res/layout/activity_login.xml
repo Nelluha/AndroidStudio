@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/fond_screen"
+    android:background="?attr/background"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -41,6 +41,7 @@
         android:layout_marginLeft="30dp"
         android:padding="8dp"
         android:hint="Email"
+        android:textColor="?attr/colorPrimary"
         android:drawableLeft="@drawable/baseline_email_24"
         android:drawablePadding="8dp"/>
 
@@ -53,6 +54,7 @@
         android:layout_marginLeft="30dp"
         android:padding="8dp"
         android:hint="password"
+        android:textColor="?attr/colorPrimary"
         android:inputType="textPassword"
         android:drawableLeft="@drawable/baseline_lock_24"
         android:drawablePadding="8dp"/>

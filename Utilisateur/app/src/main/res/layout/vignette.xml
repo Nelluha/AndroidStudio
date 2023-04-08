@@ -18,7 +18,7 @@
         android:layout_marginRight="@dimen/default_margin"
         android:layout_marginBottom="@dimen/default_margin"
         android:padding="@dimen/default_margin"
-        app:cardBackgroundColor="@color/grey"
+        app:cardBackgroundColor="?attr/colorSecondaryVariant"
         app:cardCornerRadius="20dp"
         app:cardElevation="5dp"
         >
@@ -44,7 +44,7 @@
                     android:layout_height="wrap_content"
                     android:text="NOM MANGA"
                     android:layout_gravity="center"
-                    style="@style/Vignette_text_style"
+                    style="@style/Vignette"
                     android:layout_marginLeft="20sp"/>
             </LinearLayout>
 

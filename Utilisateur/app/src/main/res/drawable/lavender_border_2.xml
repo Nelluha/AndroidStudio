@@ -6,7 +6,7 @@
         />
 
     <stroke
-        android:color="@color/lavender"
+        android:color="?attr/colorPrimary"
         android:width="2dp"/>
 
 </shape>

@@ -23,9 +23,11 @@
     <string name="home_page_anime_name">Nom de l\'anime</string>
 
 
-    <string name="toolbar_profil">Profil</string>
-    <string name="toolbar_prochaine_sortie">Prochaine Sortie</string>
-    <string name="toolbar_catalogue">Catalogue</string>
+    <string name="about">Cette application permet aux utilisateurs de recreer leurs collection en ligne.
+Derriere ce projet, c\'est deux étudiante en informatique passionnée de manga sous forme d\'anime mais aussi de scan.
+Cette applicaion regroupe un large pannel de manga sous 2 formes distinct. Lecture et passionné de serie se reunissent sous cette meme application."</string>
+    <string name="titreabout">Une bibliothèque numérique</string>
+    <string name="mode_avion">Veuillez désactiver le mode avion pour acceder à l\'application</string>
     <string name="toolbar_search">Recherche</string>
 
 

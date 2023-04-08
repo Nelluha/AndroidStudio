@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             Toolbar toolbar = findViewById(id.toolbar);
             setSupportActionBar(toolbar);
+            getSupportActionBar().setDisplayShowTitleEnabled(false);
             drawerLayout = findViewById(id.drawer_layout);
             NavigationView navigationView = findViewById(id.nav_view);
             navigationView.setNavigationItemSelectedListener(this);
@@ -128,6 +129,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
         checkAirplaneMode();
+
 
 
     }

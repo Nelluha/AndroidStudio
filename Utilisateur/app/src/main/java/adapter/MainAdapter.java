@@ -37,11 +37,6 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         this.animeList = animeList;
     }
 
-    public void setFilteredList(List<Anime> filteredList){
-       this.animeList = filteredList;
-        notifyDataSetChanged();
-    }
-
 
     @Override
     public ViewHolder onCreateViewHolder( ViewGroup parent, int viewType) {

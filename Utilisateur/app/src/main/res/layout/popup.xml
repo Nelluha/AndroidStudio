@@ -10,24 +10,24 @@
     <ImageView
 
         android:id="@+id/popupImage"
-        android:src="@drawable/gaara"
-        android:layout_width="150dp"
+        android:layout_width="190dp"
         android:scaleType="centerCrop"
-        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="190dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="@dimen/default_margin_detail"
-        android:layout_marginLeft="@dimen/default_margin_detail"/>
+        />
 
     <TextView
         android:id="@+id/popupName"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="50dp"
+        android:layout_marginRight="30dp"
         android:layout_marginBottom="50dp"
         android:text="Titryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyye"
-        android:theme="@style/Vignette_text_style"
-        android:layout_marginTop="100dp"/>
+        android:theme="@style/Vignette"
+        android:layout_marginTop="80dp"/>
 
     <ImageView
         android:id="@+id/popupLike"
