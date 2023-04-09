@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    android:background="@color/white"
+    >
+
+
+    <ImageView
+
+        android:id="@+id/popupImage"
+        android:layout_width="190dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/popupName"
+        android:layout_width="110dp"
+        android:layout_height="88dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:theme="@style/nav2" />
+
+    <ImageView
+        android:id="@+id/popupLike"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_unlike"
+        android:layout_marginTop="@dimen/default_margin_detail"
+        android:layout_marginRight="@dimen/default_margin_detail"
+        android:layout_alignParentRight="true" />
+
+   </RelativeLayout>

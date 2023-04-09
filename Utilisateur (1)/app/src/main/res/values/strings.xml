@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Topio</string>
+    <string name="open_nav">open navigation drawer</string>
+    <string name="close_nav">close navigation drawer</string>
+    <string name="Welcome">Welcome</string>
+    <string name="login_email">login_email</string>
+    <string name="login_password">login_password</string>
+    <string name="login_button">login_button</string>
+    <string name="SignUpRedirectionText">SignUpRedirectionText</string>
+    <string name="signup_email">signup_email</string>
+    <string name="signup_password">signup_password</string>
+    <string name="signup_confirm">signup_confirm</string>
+    <string name="signup_button">signup_button</string>
+    <string name="loginRedirectionText">loginRedirectionText</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="about">Cette application permet aux utilisateurs de recreer leurs collection en ligne.
+Derriere ce projet, c\'est deux étudiante en informatique passionnée de manga sous forme d\'anime mais aussi de scan.
+Cette applicaion regroupe un large pannel de manga sous 2 formes distinct. Lecture et passionné de serie se reunissent sous cette meme application."</string>
+    <string name="titreabout">Une bibliothèque numérique</string>
+    <string name="mode_avion">Veuillez désactiver le mode avion pour acceder à l\'application</string>
+    <string name="nav">Profitez de votre experience avec Topio</string>
+
+
+    <string name="titre_categorie">Synopsis</string>
+    <string name="Btn1Detail">Anime</string>
+    <string name="Btn2Detail">Scan</string>
+
+</resources>

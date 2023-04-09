@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar2"
+        layout="@layout/toolbaranime"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="@dimen/default_margin_detail"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/toolbar2"
+        android:layout_marginLeft="@dimen/default_margin_detail"/>
+
+    <TextView
+        android:id="@+id/nom_page_detail"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/Default_text_style"
+        android:textColor="?attr/colorOnTertiary"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/toolbar2"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/texteSynopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin_detail"
+        android:layout_marginTop="@dimen/default_margin_detail"
+        android:textColor="?attr/colorOnTertiary"
+        android:text="@string/titre_categorie"
+        android:theme="@style/About_Synopisis_titre"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="@dimen/default_margin_detail"
+         />
+
+    <TextView
+        android:id="@+id/texteResume"
+        android:layout_width="370dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="@dimen/default_margin"
+        android:theme="@style/About_Synopisis"
+        android:textColor="?attr/colorOnTertiary"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/texteSynopsis"
+        android:layout_marginLeft="@dimen/default_margin_detail" />
+
+    <Button
+        android:id="@+id/btnAnime"
+        android:text="@string/Btn1Detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin_detail"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:onClick="onClick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+
+         />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:text="@string/Btn2Detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin_detail"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:onClick="onClick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+
+        />
+
+
+</RelativeLayout>

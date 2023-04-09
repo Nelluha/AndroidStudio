@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutFragment">
+
+        <ImageView
+            android:id="@+id/imageabout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="@dimen/default_margin_detail"
+            android:src="@drawable/logo"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/default_margin_detail"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="75dp"
+            android:text="@string/app_name"
+            android:textColor="?attr/colorOnTertiary"
+            android:theme="@style/About_Synopisis_main_titre" />
+    <LinearLayout
+        android:layout_below="@id/imageabout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/default_margin_detail"
+            android:layout_marginTop="@dimen/default_margin_detail"
+            android:text="@string/titreabout"
+            android:theme="@style/About_Synopisis_titre"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/imageView"
+            android:textColor="?attr/colorOnTertiary"
+            android:layout_marginLeft="@dimen/default_margin_detail"
+            />
+
+        <TextView
+            android:id="@+id/texteResume"
+            android:layout_width="370dp"
+            android:layout_height="280dp"
+            android:layout_marginLeft="@dimen/default_margin_detail"
+            android:textColor="?attr/colorOnTertiary"
+            android:layout_marginTop="@dimen/default_margin"
+            android:text="@string/about"
+            android:theme="@style/About_Synopisis" />
+
+    </LinearLayout>
+</RelativeLayout>
