@@ -4,6 +4,7 @@ package com.example.utilisateur;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -57,6 +58,7 @@ PageAnime extends AppCompatActivity {
         aImage = getIntent().getStringExtra("animeImage");
         aId = getIntent().getStringExtra("animeId");
 
+        animeDetailSynopsis.setMovementMethod(new ScrollingMovementMethod());
         animeDetailText.setText(aTitle);
         animeDetailSynopsis.setText(aSynopsis);
 
