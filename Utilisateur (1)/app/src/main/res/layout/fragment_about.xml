@@ -55,5 +55,15 @@
             android:text="@string/about"
             android:theme="@style/About_Synopisis" />
 
+
+
     </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="?attr/colorOnTertiary"
+        android:text="@string/mina"
+        android:gravity="center_horizontal"
+        android:theme="@style/aboutM"/>
 </RelativeLayout>

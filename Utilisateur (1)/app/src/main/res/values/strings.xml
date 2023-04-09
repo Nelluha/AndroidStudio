@@ -16,9 +16,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
-    <string name="about">Cette application permet aux utilisateurs de recreer leurs collection en ligne.
-Derriere ce projet, c\'est deux étudiante en informatique passionnée de manga sous forme d\'anime mais aussi de scan.
-Cette applicaion regroupe un large pannel de manga sous 2 formes distinct. Lecture et passionné de serie se reunissent sous cette meme application."</string>
+    <string name="about">Cette application permet à ces utilisateurs de créer une bibliothèque de leurs animés et mangas préfères.
+Derrière ce projet, deux étudiantes en informatique passionnée de manga. Cette application regroupe un large panel de manga disponible sous 2 formes.
+        Lecteurs et passionnés de serie se reunissent sous cette meme application."</string>
+
+    <string name="mina">Avec la participation de la petite soeur pour ce magnifique logo</string>
+
     <string name="titreabout">Une bibliothèque numérique</string>
     <string name="mode_avion">Veuillez désactiver le mode avion pour acceder à l\'application</string>
     <string name="nav">Profitez de votre experience avec Topio</string>
