@@ -37,7 +37,7 @@
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/nav_menu"
         app:itemIconTint="?attr/colorPrimary"
-        app:itemTextColor="?attr/colorOnTertiary" />
+        app:itemTextColor="?attr/colorOnPrimary" />
 
 
 

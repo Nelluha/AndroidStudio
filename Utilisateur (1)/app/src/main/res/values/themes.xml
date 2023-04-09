@@ -3,11 +3,13 @@
     <style name="Theme.MainActivity" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/lavender</item>
+        <item name="colorOnPrimary">@color/lavender</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/black</item>
         <item name="colorSecondaryVariant">@color/lavender</item>
         <item name="colorTertiary">@color/white</item>
         <item name="colorOnTertiary">@color/black</item>
+
         <item name="background">@drawable/fond_screen</item>
 
         <!-- Status bar color. -->
